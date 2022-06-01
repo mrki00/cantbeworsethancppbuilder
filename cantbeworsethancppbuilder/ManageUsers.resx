@@ -1,0 +1,585 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>username</value>
+  </data>
+  <data name="aesRB.Text" xml:space="preserve">
+    <value>aes</value>
+  </data>
+  <data name="&gt;&gt;DeleteUserB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Name" xml:space="preserve">
+    <value>comboBox1</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="aesRB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 17</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="GoBackB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="DeleteUserB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="conT.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="DeleteUserB.Text" xml:space="preserve">
+    <value>Delete User</value>
+  </data>
+  <data name="&gt;&gt;GoBackB.Name" xml:space="preserve">
+    <value>GoBackB</value>
+  </data>
+  <data name="sha1RB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 17</value>
+  </data>
+  <data name="usernameT.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 20</value>
+  </data>
+  <data name="&gt;&gt;aesRB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RefreshB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ManageUsers</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;DeleteUserB.Name" xml:space="preserve">
+    <value>DeleteUserB</value>
+  </data>
+  <data name="&gt;&gt;repassT.Name" xml:space="preserve">
+    <value>repassT</value>
+  </data>
+  <data name="aesRB.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;CreateUserB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DeleteUserB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>464, 250</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="dataGridView1.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="repassT.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 13</value>
+  </data>
+  <data name="CreateUserB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>187, 202</value>
+  </data>
+  <data name="&gt;&gt;GoBackB.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;passT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RefreshB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 22</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>ManageUsers</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;repassT.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="GoBackB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 203</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="RefreshB.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="&gt;&gt;DeleteUserB.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="sha1RB.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 128</value>
+  </data>
+  <data name="&gt;&gt;conT.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="repassT.Location" type="System.Drawing.Point, System.Drawing">
+    <value>134, 121</value>
+  </data>
+  <data name="&gt;&gt;usernameT.Name" xml:space="preserve">
+    <value>usernameT</value>
+  </data>
+  <data name="usernameT.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;passT.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CreateUserB.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 13</value>
+  </data>
+  <data name="&gt;&gt;sha1RB.Name" xml:space="preserve">
+    <value>sha1RB</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="GoBackB.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="repassT.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 20</value>
+  </data>
+  <data name="&gt;&gt;repassT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;conT.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;aesRB.Name" xml:space="preserve">
+    <value>aesRB</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 13</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.Name" xml:space="preserve">
+    <value>dataGridView1</value>
+  </data>
+  <data name="RefreshB.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 83</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="dataGridView1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>543, 191</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Delete by</value>
+  </data>
+  <data name="&gt;&gt;usernameT.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;repassT.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="dataGridView1.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;sha1RB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="passT.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 20</value>
+  </data>
+  <data name="&gt;&gt;mySqlDataAdapter1.Type" xml:space="preserve">
+    <value>MySql.Data.MySqlClient.MySqlDataAdapter, MySql.Data, Version=8.0.26.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;usernameT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="sha1RB.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;GoBackB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RefreshB.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;conT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;passT.Name" xml:space="preserve">
+    <value>passT</value>
+  </data>
+  <data name="&gt;&gt;mySqlDataAdapter1.Name" xml:space="preserve">
+    <value>mySqlDataAdapter1</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="RefreshB.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="conT.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 20</value>
+  </data>
+  <data name="passT.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>134, 252</value>
+  </data>
+  <data name="&gt;&gt;usernameT.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="sha1RB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 161</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;conT.Name" xml:space="preserve">
+    <value>conT</value>
+  </data>
+  <data name="RefreshB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>818, 250</value>
+  </data>
+  <data name="&gt;&gt;RefreshB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="aesRB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>187, 161</value>
+  </data>
+  <data name="comboBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 21</value>
+  </data>
+  <data name="CreateUserB.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="conT.Location" type="System.Drawing.Point, System.Drawing">
+    <value>298, 253</value>
+  </data>
+  <data name="&gt;&gt;GoBackB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="CreateUserB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 40</value>
+  </data>
+  <data name="&gt;&gt;passT.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="usernameT.Location" type="System.Drawing.Point, System.Drawing">
+    <value>134, 34</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>password</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DeleteUserB.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="aesRB.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 255</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 13</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;aesRB.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;CreateUserB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>repeat password</value>
+  </data>
+  <data name="&gt;&gt;DeleteUserB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="CreateUserB.Text" xml:space="preserve">
+    <value>Create User</value>
+  </data>
+  <data name="GoBackB.Text" xml:space="preserve">
+    <value>Go Back</value>
+  </data>
+  <data name="&gt;&gt;sha1RB.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="dataGridView1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>298, 34</value>
+  </data>
+  <data name="&gt;&gt;sha1RB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="passT.Location" type="System.Drawing.Point, System.Drawing">
+    <value>134, 76</value>
+  </data>
+  <data name="sha1RB.Text" xml:space="preserve">
+    <value>sha1</value>
+  </data>
+  <data name="&gt;&gt;aesRB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>879, 285</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RefreshB.Name" xml:space="preserve">
+    <value>RefreshB</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateUserB.Name" xml:space="preserve">
+    <value>CreateUserB</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <metadata name="mySqlDataAdapter1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>
